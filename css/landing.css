@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* start landing */
+.landing{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/landingphoto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white; 
+}
+.landing .landing-container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.landing .landing-container .landing-content{
+    line-height: 2;
+    text-align: center;
+    /* padding-left: 40px; */
+}
+.landing .landing-container .landing-content .landing-buttons a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: #003935;
+    /* background: linear-gradient(106.32deg,#01cf6c,#044f71); */
+    border:none;
+    border-radius: 20px; 
+    text-align: center;
+    transition: all 0.3s ease;
+    display: inline-block; 
+    margin-left: 20px;
+    padding-top: 5px;
+    margin-top: 10px;
+}   
+/* .landing .landing-container .landing-content .landing-buttons{
+    width: 200px;
+    height: 50px;
+    background-color: #003935;
+    /* background: linear-gradient(106.32deg,#01cf6c,#044f71); 
+    border:none;
+    border-radius: 20px; 
+    text-align: center;
+    transition: all 0.3s ease;
+} */
+.landing .landing-container .landing-content .landing-buttons a:hover{
+    background-color: white;
+    border: 1px solid #003935;
+    transform: scale(1.1);
+    color: #003935
+}
+/* .landing .landing-container .landing-content .landing-buttons a:hover{
+    color: #003935;
+} 
+.landing-buttons{
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 5px;
+    margin-top: 10px;
+} */
+/* end landing */
